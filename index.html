@@ -3,19 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben Moderno</title>
+    <title>Livre.Mente — Ruben Moderno</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
-        h1 { font-size: 1.8em; }
-        a { color: #1a73e8; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; line-height: 1.6; }
+        .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #fff; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 2.8em; margin-bottom: 10px; letter-spacing: -1px; }
+        .hero .subtitle { font-size: 1.2em; opacity: 0.85; margin-bottom: 40px; }
+        .pillars { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+        .pill { background: rgba(255,255,255,0.12); padding: 8px 18px; border-radius: 20px; font-size: 0.9em; }
+        .login-btn { display: inline-block; background: #e94560; color: #fff; padding: 14px 40px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1em; transition: background 0.2s; }
+        .login-btn:hover { background: #c73650; }
+        .content { max-width: 700px; margin: 0 auto; padding: 60px 20px; }
+        .content h2 { font-size: 1.5em; margin-bottom: 15px; }
+        .content p { margin-bottom: 15px; color: #444; }
+        .links { display: flex; gap: 30px; justify-content: center; margin-top: 40px; }
+        .links a { color: #0f3460; font-weight: 500; }
+        footer { text-align: center; padding: 30px; color: #888; font-size: 0.85em; border-top: 1px solid #eee; }
+        .social { display: flex; gap: 20px; justify-content: center; margin: 20px 0; flex-wrap: wrap; }
+        .social a { color: #0f3460; text-decoration: none; }
     </style>
 </head>
 <body>
-    <h1>Ruben Moderno</h1>
-    <p>Criador de conteúdo sobre natureza, tecnologia, crypto, mente e corpo.</p>
-    <ul>
-        <li><a href="/terms">Termos de Serviço</a></li>
-        <li><a href="/privacy">Política de Privacidade</a></li>
-    </ul>
+    <div class="hero">
+        <h1>Livre.Mente</h1>
+        <p class="subtitle">por Ruben Moderno</p>
+        <div class="pillars">
+            <span class="pill">🌱 Natureza</span>
+            <span class="pill">🚀 VibeBuild</span>
+            <span class="pill">₿ Crypto</span>
+            <span class="pill">🧠 Mente</span>
+            <span class="pill">💪 Corpo</span>
+        </div>
+        <a href="/callback.html" class="login-btn">Iniciar Sessão</a>
+    </div>
+
+    <div class="content">
+        <h2>Sobre o Livre.Mente</h2>
+        <p>O Livre.Mente é uma plataforma de conteúdo criada por Ruben Moderno, focada em 5 pilares: Natureza, VibeBuild (empreendedorismo digital), Crypto, Mente e Corpo.</p>
+        <p>Através da app Livre.Mente, publicamos conteúdo diário em múltiplas plataformas — incluindo TikTok, Instagram, YouTube, Facebook, X, Bluesky e Threads — com o objetivo de partilhar conhecimento, experiências e reflexões sobre uma vida mais consciente e livre.</p>
+        <p>A app utiliza integrações com redes sociais para publicar conteúdo de forma automatizada, sempre com autorização e controlo total do utilizador.</p>
+
+        <div class="social">
+            <a href="https://instagram.com/ruben.moderno">Instagram</a>
+            <a href="https://tiktok.com/@RubenModerno">TikTok</a>
+            <a href="https://youtube.com/@Ruben.Moderno">YouTube</a>
+            <a href="https://x.com/RubenModerno">X</a>
+            <a href="https://bsky.app/profile/rubenmoderno.bsky.social">Bluesky</a>
+            <a href="https://threads.net/@ruben.moderno">Threads</a>
+        </div>
+
+        <div class="links">
+            <a href="/privacy.html">Política de Privacidade</a>
+            <a href="/terms.html">Termos de Serviço</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Livre.Mente — Ruben Moderno. Todos os direitos reservados.<br>
+        Contacto: <a href="mailto:contactaoruben@gmail.com">contactaoruben@gmail.com</a>
+    </footer>
 </body>
 </html>
